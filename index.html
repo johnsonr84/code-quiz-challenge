@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Quiz CHallenge</title>
 </head>
 
 <body>
     <!------------- INSTRUCTIONS CONTAINER ---------------->
-    <div class="container">
         <!-- Start Button -->
         <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -39,17 +40,41 @@
         </div>
         <!------------------ QUIZ CONTAINER ------------------->
 
-        <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-buttons">
-                <div class="row">
-                    <div class="col"><button class="btn">Answer 1</button></div>
-                    <div class="col"><button class="btn">Answer 2</button></div>
-                    <div class="w-100"></div>
-                    <div class="col"><button class="btn">Answer 3</button></div>
-                    <div class="col"><button class="btn">Answer 4</button></div>
+        <div class="quiz_box">
+            <header>
+                <div class="title">Awesome Quiz Application</div>
+                <div class="timer">
+                    <div class="time_text">Time Remaining</div>
+                    <div class="timer_sec">20</div>
                 </div>
-            </div>
+            </header>
+            <section>
+                <div class="que_text">
+                    <span></span>
+                </div>
+            </section>
+        </div>
+
+    <!-- Quiz Box -->
+    <footer>
+        <div class="total_que">
+            <span><p>2</p><p>of</p><p>10</p>Questions</span>
+        </div>
+        <button class="next_btn">Next Question</button>
+    </footer>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa fa-trophy" aria-hidden="true"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_Text">
+            <span>You scored <p>2</p> out of <p>10</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Retry</button>
+            <button class="quit">Quit Quiz</button>
         </div>
     </div>
 </body>
