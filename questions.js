@@ -1,6 +1,6 @@
 const questions = [
   {
-    number: 1,
+    numb: 1,
     question: 'Which operator is used to assign a value to a variable?',
     answer: "=",
     options: [
@@ -11,7 +11,7 @@ const questions = [
     ]
   },
   {
-    number: 2,
+    numb: 2,
     question: 'How do you create a function in JavaScript?',
     answer: "function myFunction()",
     options: [
@@ -22,7 +22,7 @@ const questions = [
     ]
   },
   {
-    number: 3,
+    numb: 3,
     question: 'Inside which HTML element do we put the JavaScript?',
     answer: "<script>",
     options: [
@@ -33,7 +33,7 @@ const questions = [
     ]
   },
   {
-    number: 4,
+    numb: 4,
     question: 'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
     answer: "if (i != 5)",
     options: [
@@ -44,7 +44,7 @@ const questions = [
     ]
   },
   {
-    number: 5,
+    numb: 5,
     question: 'Commonly used data types DO NOT Include?',
     answer: "alerts",
     options: [
@@ -55,7 +55,7 @@ const questions = [
     ]
   },
   {
-    number: 6,
+    numb: 6,
     question: 'How does a FOR loop start?',
     answer: "for (i = 0; i <= 5; i++)",
     options: [
@@ -66,7 +66,7 @@ const questions = [
     ]
   },
   {
-    number: 7,
+    numb: 7,
     question: 'How to write an IF statement in JavaScript?',
     answer: "if (i == 5)",
     options: [
@@ -77,7 +77,7 @@ const questions = [
     ]
   },
   {
-    number: 8,
+    numb: 8,
     question: 'Where is the correct place to insert a JavaScript?',
     answer: "Both the <head> section and the <body> section are correct",
     options: [
@@ -87,7 +87,7 @@ const questions = [
     ]
   },
   {
-    number: 9,
+    numb: 9,
     question: 'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
     answer: "if (i != 5)",
     options: [
@@ -98,7 +98,7 @@ const questions = [
     ]
   },
   {
-    number: 10,
+    numb: 10,
     question: 'How do you write "Hello World" in an alert box?',
     answer: "alert('Hello World');",
     options: [
