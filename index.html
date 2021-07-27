@@ -8,95 +8,98 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
     <title>Quiz CHallenge</title>
 </head>
 
 <body>
     <!------------- INSTRUCTIONS CONTAINER ---------------->
-        <!-- Start Button -->
-        <div class="start_btn"><button>Start Quiz</button></div>
+    <!-- Start Button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
 
-        <div class="info_box">
-            <div class="info_title">
-                <h2>JS Coding Quiz Challenge</h2>
+    <div class="info_box">
+        <div class="info_title">
+            <h2>JS Coding Quiz Challenge</h2>
+        </div>
+        <div class="info_list">
+            <div class="info">1) You will have <span>20 seconds</span> to answer each of 10 code related questions.
             </div>
-            <div class="info_list">
-                <div class="info">1) You will have <span>20 seconds</span> to answer each of 10 code related questions.
-                </div>
-                <div class="info">2) Once you select an answer it can't be undone.</div>
-                <div class="info">3) You'll get points for each correct answer.</div>
-                <div class="info">4) Once you start the quiz you must answer all 10 questions.</div>
-                <div class="info">5) Upon completion you'll enter initials and save high score.</div>
-                <div class="info">6) Click Start to begin. Good Luck!</div>
-            </div>
-            <div class="buttons">
-                <!-- Quit Button -->
-                <button class="quit">Exit Quiz</button>
-                <!-- Next Button -->
-                <button class="next">Next</button>
-            </div>
-        </div>
-        <!------------------ QUIZ CONTAINER ------------------->
-
-        <div class="quiz_box">
-            <header>
-                <div class="title">JS Code Quiz Challenge</div>
-                <div class="timer">
-                    <div class="time_text">Time Remaining</div>
-                    <div class="timer_sec">20</div>
-                </div>
-            </header>
-            <section>
-                <div class="que_text">
-                    <span>Inside which HTML element do we put the JavaScript?</span>
-                </div>
-                <div class="option_list">
-                    <div class="option">
-                        <span>scripting</span>
-                    </div>
-                    <div class="option">
-                        <span>javascript</span>
-                        <div class="icon cross"><i class="fa fa-times"></i></div>
-                    </div>
-                    <div class="option">
-                        <span>script</span>
-                        <div class="icon tick"><i class="fas fa-check"></i></div>
-                    </div>
-                    <div class="option">
-                        <span>javascript</span>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-    <!-- Quiz Box Footer-->
-    <footer>
-        <div class="total_que">
-            <span><p>2</p>of<p>10</p>Questions</span>
-        </div>
-        <button class="next_btn">Next Question</button>
-    </footer>
-
-    <!-- Result Box -->
-    <div class="result_box">
-        <div class="icon">
-            <i class="fa fa-trophy" aria-hidden="true"></i>
-        </div>
-        <div class="complete_text">You've completed the Quiz!</div>
-        <div class="score_Text">
-            <span>You scored <p>2</p> out of <p>10</p></span>
+            <div class="info">2) Once you select an answer it can't be undone.</div>
+            <div class="info">3) You'll get points for each correct answer.</div>
+            <div class="info">4) Once you start the quiz you must answer all 10 questions.</div>
+            <div class="info">5) Upon completion you'll enter initials and save high score.</div>
+            <div class="info">6) Click Start to begin. Good Luck!</div>
         </div>
         <div class="buttons">
-            <button class="restart">Retry</button>
-            <button class="quit">Quit Quiz</button>
+            <!-- Quit Button -->
+            <button class="quit">Exit Quiz</button>
+            <!-- Next Button -->
+            <button class="restart">Continue</button>
         </div>
     </div>
-</body>
+    <!------------------ QUIZ CONTAINER ------------------->
 
-<!------------------ SCRIPTS -------------------->
+    <div class="quiz_box">
+        <header>
+            <div class="title">JS Code Quiz Challenge</div>
+            <div class="timer">
+                <div class="time_text">Time Remaining</div>
+                <div class="timer_sec">20</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>Inside which HTML element do we put the JavaScript?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>scripting</span>
+                </div>
+                <div class="option">
+                    <span>javascript</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>script</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>javascript</span>
+                </div>
+            </div>
+        </section>
+        <!-- </div> -->
+
+        <!-- Quiz Box Footer-->
+        <footer>
+            <div class="total_que">
+                <span>
+                    <p>2</p>of<p>10</p>Questions
+                </span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+        <!-- Result Box -->
+        <div class="result_box">
+            <div class="icon">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <div class="complete_text">You've completed the Quiz!</div>
+            <div class="score_Text">
+                <span>You scored <p>2</p> out of <p>10</p></span>
+            </div>
+            <div class="buttons">
+                <button class="restart">Retry</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+        </div>
+   <!------------------ SCRIPTS -------------------->
 <script src="./script.js"></script>
 <script src="./questions.js"></script>
+</body>
+
+
 
 </html>
