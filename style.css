@@ -265,6 +265,23 @@ section .option_list .option:hover {
   background-color: #52B152;
 }
 
+.option_list .option.correct {
+  color: #fff;
+  border-color: #fff;
+  background-color: #52B152;
+}
+
+.option_list .option.incorrect {
+  color: #fff;
+  border-color: #fff;
+  background-color: #a42834;
+}
+
+.option_list .option.disabled {
+  pointer-events: none;
+  
+} 
+
 .option_list .option .icon.cross {
   color: #fff;
   border-color: #fff;
