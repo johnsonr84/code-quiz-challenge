@@ -97,35 +97,49 @@ function showQuestions(index) {
                    + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
   que_text.innerHTML = que_tag;
   option_list.innerHTML = option_tag;
+
   const option = option_list.querySelectorAll(".option")
+
+  // onclick attribute to all available options
   for (let i = 0; i < option.length; i++) {
     option[i].setAttribute("onclick", "optionSelected(this)");
   }
 }
 
+// div tag font awesome icons
 let tickIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
-function optionSelected(answer) {
-  let userAns = answer.textContent;
-  let correctAns = questions[que_count].answer;
-  let allOptions = option_list.children.length;
-  if(userAns == correctAns) {
-    answer.classList.add("correct");
-    console.log("Correct");
-    answer.insertAdjacentHTML("beforeend", tickIcon);
-  }else {
-    answer.classList.add("incorrect");
-    console.log("Incorrect");
-    answer.insertAdjacentHTML("beforeend", crossIcon);
+//if user clicked on option
+function optionSelected(answer){
+  clearInterval(counter); //clear counter
+  clearInterval(counterLine); //clear counterLine
+  let userAns = answer.textContent; //getting user selected option
+  let correcAns = questions[que_count].answer; //getting correct answer from array
+  const allOptions = option_list.children.length; //getting all option items
+  
+  if(userAns == correcAns){ //if user selected option is equal to array's correct answer
+      userScore += 1; //upgrading score value with 1
+      answer.classList.add("correct"); //adding green color to correct selected option
+      answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
+      console.log("Correct Answer");
+      console.log("Your correct answers = " + userScore);
+  }else{
+      answer.classList.add("incorrect"); //adding red color to correct selected option
+      answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cross icon to correct selected option
+      console.log("Wrong Answer");
+      for(i=0; i < allOptions; i++){
+          if(option_list.children[i].textContent == correcAns){ //if there is an option which is matched to an array answer 
+              option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
+              option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
+              console.log("Auto selected correct answer.");
+          }
+      }
   }
-  // shows correct answer if incorrect answer is selected
-  for (let i = 0; i < allOptions; i++) {
-    if(option_list.children[i].textCOntent == correctAns) {
-      option_list.children[i].setAttribute("class", "option correct")
-      option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
-    }
+  for(i=0; i < allOptions; i++){
+      option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
   }
+  next_btn.classList.add("show"); //show the next button if user selected any option
 }
 
 function queCounter(index) {
