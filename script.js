@@ -142,9 +142,9 @@ function optionSelected(answer){
   next_btn.classList.add("show"); //show the next button if user selected any option
 }
 
-function queCounter(index) {
-  const bottom_ques_counter = quiz_box.querySelector(".total_que")
-  let totalQuesCountTag = '<span><p>'+ index +'</p>of<p>'+ questions.length +'</p>Questions</span>';
-  bottom_ques_counter.innerHTML = totalQuesCountTag;
+function queCounter(index){
+  //creating a new span tag and passing the question number and total question
+  let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
+  bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
 
