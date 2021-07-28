@@ -28,8 +28,10 @@ function showQuestions(index) {
   const que_text = document.querySelector(".que_text");
   const option_list = document.querySelector(".option_list");
   let que_tag = '<span>'+ questions[index].question +'</span>';
-  let option_tag = '<div class="option"><span></span></div>'
+  let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
+                   + '<div class="option"><span></span></div>'
                    + '<div class="option"><span></span></div>'
                    + '<div class="option"><span></span></div>';
   que_text.innerHTML = que_tag;
+  option_list.innerHTML = option_tag;
 }
