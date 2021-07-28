@@ -24,12 +24,12 @@ const questions = [
   {
     numb: 3,
     question: 'Inside which HTML element do we put the JavaScript?',
-    answer: "<script>",
+    answer: "script",
     options: [
-      "<scripting>", 
-      "<js>", 
-      "<script>", 
-      "<javascript>"
+      'scripting', 
+      "js", 
+      "script", 
+      "javascript"
     ]
   },
   {
