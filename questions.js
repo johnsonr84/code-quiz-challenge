@@ -79,11 +79,12 @@ const questions = [
   {
     numb: 8,
     question: 'Where is the correct place to insert a JavaScript?',
-    answer: "Both the <head> section and the <body> section are correct",
+    answer: "Both the 'head' section and the 'body' section are correct",
     options: [
-      "The <body> section",
-      "The <head> section",
-      "Both the <head> section and the <body> section are correct"
+      "The 'body' section",
+      "The 'head' section",
+      "The 'footer' section",
+      "Both the 'head' section and the 'body' section are correct"
     ]
   },
   {
