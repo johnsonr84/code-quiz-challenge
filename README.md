@@ -30,14 +30,19 @@
   <tr>
     <td>code-quiz start</td>
      <td>code-quiz instructions</td>
+  </tr>
+  <tr>
+    <td><img src="./img/quiz_1.png" height=300 alt="screenshot of quiz start page"></td>
+    <td><img src="./img/quiz_2.png" height=300 alt="screenshot of quiz instructions"></td>
+  </tr>
+  <tr>
      <td>code-quiz question</td>
      <td>code-quiz scores</td>
   </tr>
-  <tr>
-    <td><img src="./img/quiz_1.png" height=200 alt="screenshot of quiz start page"></td>
-    <td><img src="./img/quiz_2.png" height=200 alt="screenshot of quiz instructions"></td>
-    <td><img src="./img/quiz_3.png" height=200 alt="screenshot of quiz question"></td>
-    <td><img src="./img/quiz_4.png" height=200 alt="screenshot of quiz score results"></td>
+   <tr>
+
+    <td><img src="./img/quiz_3.png" height=300 alt="screenshot of quiz question"></td>
+    <td><img src="./img/quiz_4.png" height=300 alt="screenshot of quiz score results"></td>
   </tr>
  </table>
 
