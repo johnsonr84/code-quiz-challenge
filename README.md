@@ -26,13 +26,20 @@
   https://github.com/johnsonr84/code-quiz-challenge
 
   ## Mock-Up
-  ![code-quiz-challenge demo png](./img/quiz-demo.gif)
-
-  ![code-quiz-challenge start png](./img/quiz_1.png)
-
-  ![code-quiz-challenge instructions png](./img/quiz_2.png)
-
-  ![code-quiz-challenge question sample png](./img/quiz_3.png)
+  <table>
+  <tr>
+    <td>code-quiz start</td>
+     <td>code-quiz instructions</td>
+     <td>code-quiz question</td>
+     <td>code-quiz scores</td>
+  </tr>
+  <tr>
+    <td><img src="./img/quiz_1.png" height=200 alt="screenshot of quiz start page"></td>
+    <td><img src="./img/quiz_2.png" height=200 alt="screenshot of quiz instructions"></td>
+    <td><img src="./img/quiz_3.png" height=200 alt="screenshot of quiz question"></td>
+    <td><img src="./img/quiz_4.png" height=200 alt="screenshot of quiz score results"></td>
+  </tr>
+ </table>
 
   ## Installation 
   No installations required at this time 
