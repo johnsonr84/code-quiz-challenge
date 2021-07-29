@@ -18,7 +18,7 @@
   * [Contact](#Contact)
   * [Designed and built by](#Designed-and-built-by)
   #
-  
+  qu
   ## Description 
   Build a timed quiz on JavaScript fundamentals that stores high scores. Answer 10 code related questions within 200 seconds. Each question can only be answered once and a wrong answer will subtract 10 seconds off the countdown timer. To save score simply enter initials at the end of the quiz.  
 
@@ -26,9 +26,13 @@
   https://github.com/johnsonr84/code-quiz-challenge
 
   ## Mock-Up
-  ![code-quiz-challenge demo png](./images/quiz-demo.gif)
+  ![code-quiz-challenge demo png](./img/quiz-demo.gif)
 
-  ![code-quiz-challenge demo png](./images/quiz-shot_1.png)
+  ![code-quiz-challenge start png](./img/quiz_1.png)
+
+  ![code-quiz-challenge instructions png](./img/quiz_2.png)
+
+  ![code-quiz-challenge question sample png](./img/quiz_3.png)
 
   ## Installation 
   No installations required at this time 
