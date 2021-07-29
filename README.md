@@ -35,6 +35,8 @@
     <td><img src="./img/quiz_1.png" height=300 alt="screenshot of quiz start page"></td>
     <td><img src="./img/quiz_2.png" height=300 alt="screenshot of quiz instructions"></td>
   </tr>
+  </table>
+  <table>
   <tr>
      <td>code-quiz question</td>
      <td>code-quiz scores</td>
