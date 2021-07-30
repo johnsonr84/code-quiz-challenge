@@ -18,7 +18,7 @@
   * [Contact](#Contact)
   * [Designed and built by](#Designed-and-built-by)
   #
-  qu
+  
   ## Description 
   Build a timed quiz on JavaScript fundamentals that stores high scores. Answer 10 code related questions within 200 seconds. Each question can only be answered once and a wrong answer will subtract 10 seconds off the countdown timer. To save score simply enter initials at the end of the quiz.  
 
