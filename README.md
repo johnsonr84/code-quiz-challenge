@@ -1,7 +1,7 @@
-<h1 align="center" color="yellow"><a href="https://github.com/johnsonr84/code-quiz-challenge">Threadz N' Treads 👟 </a></h1>
+<h1 align="center" color="yellow"><a href="https://github.com/johnsonr84/code-quiz-challenge">Javascript Code Quiz ⏳</a></h1>
 
 ## Description 
-  Build a timed quiz on JavaScript fundamentals that stores high scores. Answer 10 code related questions within 200 seconds. Each question can only be answered once and a wrong answer will subtract 10 seconds off the countdown timer. To save score simply enter initials at the end of the quiz. 
+  Timed JavaScript Quiz featuring questions on fundamentals. Answer 10 code related questions within 200 seconds. Each question can only be answered once and a wrong answer will subtract 10 seconds off the countdown timer. To save score simply enter initials at the end of the quiz. 
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
   [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/code-quiz-challenge)
